@@ -21,7 +21,7 @@ int main() {
 
     printf("please input\n");
 
-    scanf("%s",&dist);
+    scanf("%s",dist);
 
     printf("%s",dist);
 
