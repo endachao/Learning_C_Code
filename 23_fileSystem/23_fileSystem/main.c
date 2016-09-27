@@ -28,6 +28,7 @@ int main(int argc, const char * argv[]) {
     // 读取文件
     FILE *f = fopen("data.txt","r");
     if(f){
+        // 设置字符缓冲区
         char buff[100];
         memset(buff, 0, 100);
         for (int i=0; i<100; i++) {
